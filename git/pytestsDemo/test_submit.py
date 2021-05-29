@@ -30,7 +30,7 @@ class TestSubmit(BaseClass):
         self.driver.refresh()
 
     #@pytest.fixture(params=[("rajas", "rajas@abc.com", "xyz" ), ("harshit", "harsh@abc.com", "abc")])
-    @pytest.fixture(params=BaseClass.getdata("02"))
+    @pytest.fixture(params=BaseClass.getdata("03"))
 
     def getData(self,request):
         return request.param
